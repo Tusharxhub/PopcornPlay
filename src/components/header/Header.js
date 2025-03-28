@@ -1,8 +1,20 @@
-import React from "react"
-import "./Header.css"
-import { Link } from "react-router-dom"
+import React, { useEffect, useState } from "react";
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+    const [movieList, setMovieList] = useState([]);
+    const type = "popular"; // Example type, replace with actual logic
+
+    useEffect(() => {
+        const getData = () => {
+            fetch("...")
+                .then(res => res.json())
+                .then(data => setMovieList(data.results));
+        };
+        getData();
+    }, [type]);
+
     return (
         <div className="header">
             <div className="headerLeft">
@@ -12,7 +24,7 @@ const Header = () => {
                 <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span>Upcoming</span></Link>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

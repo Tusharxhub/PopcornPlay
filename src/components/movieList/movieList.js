@@ -32,6 +32,7 @@ const MovieList = () => {
                     ))
                 }
             </div>
+            <a href="..." target="_blank" rel="noopener noreferrer">...</a>
         </div>
     )
 }
