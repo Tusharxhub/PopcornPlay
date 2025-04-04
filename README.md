@@ -32,7 +32,7 @@
 ## 📸 Preview
 
 *(Once you add screenshot links, images will render like this)*  
-![Preview](https://your-image-link)
+![UI](https://github.com/Tusharxhub/PopcornPlay/blob/main/UI.png?raw=true)
 
 ---
 
