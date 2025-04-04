@@ -9,7 +9,7 @@ const Header = () => {
                 <Link to="/">
                     <img
                         className="header__icon"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/PopcornPlay_Logo_2016.svg/2560px-PopcornPlay_Logo_2016.svg.png"
+                        src="/logo.png"
                         alt="PopcornPlay Logo"
                     />
                 </Link>
